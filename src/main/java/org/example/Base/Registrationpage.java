@@ -28,8 +28,6 @@ public class Registrationpage extends AbstractFacebookPage{
                 wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//option[text()='2012']"))).click();
                 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@aria-label='Mobile number or email address']"))).sendKeys("Hjectory");
                 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@aria-label='New password']"))).sendKeys("567898765r");
-
-                // Add further actions as necessary
             }
         }
 

@@ -22,7 +22,9 @@ public class FacebookTest extends AbstractFacebookTest{
     @Test(enabled = true)
     @Description("TC-02-Launch The Browser and Fill The Registration Page")
     public void createTheRegistrationPage() throws InterruptedException {
+        loginPage.launchWebsite();
         registrationpage.registerPage();
+
 
 
 
