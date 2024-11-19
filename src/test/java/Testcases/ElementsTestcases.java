@@ -32,6 +32,7 @@ public class ElementsTestcases  {
         elementsHomepage.clickOnLinks();
         elementsHomepage.clickOnBrokenLinks();
         elementsHomepage.clickOnUploadAndDownloadButton();
+        elementsHomepage.Teardown();
 
     }
 }

@@ -4,21 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adacaf84-223e-4624-9c19-f72fd59615e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/ElementsHomepage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/FormsHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/ElementsTestcases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/FormsTestcases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestNg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Utilities/config.properties" afterDir="false" />
+    <list default="true" id="adacaf84-223e-4624-9c19-f72fd59615e7" name="Changes" comment="Adding new Project">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/AlertsHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/InteractionsHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/WidgetsHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/AlertsTestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/InteractionsTestcases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/WidgetsTestcases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/Pages/FormsHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/FormsHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/ElementsTestcases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testcases/ElementsTestcases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/FormsTestcases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testcases/FormsTestcases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +44,17 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.AlertsTestCases.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.BaseClass.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.C:/Users/karthik.nagendrappa/OneDrive - QAPITOL QA/Desktop/CashFloApiAutomationPreMAster/DemoQQATraining/src/test/resources/TestNg.xml.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.ElementsHomepage.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.ElementsTestcases.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.Homepage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.InteractionsTestcases.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.LoginPage.LaunchBrowserandElements.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.LoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WidgetsHomePage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WidgetsTestcases.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/karthik.nagendrappa/OneDrive - QAPITOL QA/Desktop/CashFloApiAutomationPreMAster/DemoQQATraining/src/main/java/org/example/Main.java&quot;,
@@ -101,7 +102,20 @@
       <option name="presentableId" value="Default" />
       <updated>1731494809100</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding new Project">
+      <option name="closed" value="true" />
+      <created>1731598610694</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731598610694</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding new Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding new Project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
