@@ -6,14 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="adacaf84-223e-4624-9c19-f72fd59615e7" name="Changes" comment="Added new codes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/Pages/AlertsHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/AlertsHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/Pages/ElementsHomepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/ElementsHomepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/Pages/FormsHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/FormsHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/Pages/InteractionsHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/InteractionsHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/Pages/WidgetsHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/WidgetsHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/InteractionsTestcases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testcases/InteractionsTestcases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,28 +31,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.AlertsTestCases.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.BaseClass.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/karthik.nagendrappa/OneDrive - QAPITOL QA/Desktop/CashFloApiAutomationPreMAster/DemoQQATraining/src/test/resources/TestNg.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ElementsHomepage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ElementsTestcases.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Homepage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.InteractionsTestcases.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginPage.LaunchBrowserandElements.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginPage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.WidgetsHomePage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.WidgetsTestcases.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/karthik.nagendrappa/OneDrive - QAPITOL QA/Desktop/CashFloApiAutomationPreMAster/DemoQQATraining/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.AlertsTestCases.executor": "Run",
+    "TestNG.BaseClass.executor": "Run",
+    "TestNG.C:/Users/karthik.nagendrappa/OneDrive - QAPITOL QA/Desktop/CashFloApiAutomationPreMAster/DemoQQATraining/src/test/resources/TestNg.xml.executor": "Run",
+    "TestNG.ElementsHomepage.executor": "Run",
+    "TestNG.ElementsTestcases.executor": "Run",
+    "TestNG.Homepage.executor": "Run",
+    "TestNG.InteractionsTestcases.executor": "Run",
+    "TestNG.LoginPage.LaunchBrowserandElements.executor": "Run",
+    "TestNG.LoginPage.executor": "Run",
+    "TestNG.WidgetsHomePage.executor": "Run",
+    "TestNG.WidgetsTestcases.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/karthik.nagendrappa/OneDrive - QAPITOL QA/Desktop/CashFloApiAutomationPreMAster/DemoQQATraining/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\karthik.nagendrappa\OneDrive - QAPITOL QA\Desktop\CashFloApiAutomationPreMAster\DemoQQATraining\src\test" />
@@ -116,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732019938851</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added new codes">
+      <option name="closed" value="true" />
+      <created>1733399161791</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733399161791</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
