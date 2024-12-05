@@ -85,11 +85,12 @@ public class WidgetsHomePage {
         js.executeScript("arguments[0].scrollIntoView(true);", element);
         element.click();
     }
-    public void SelectTheDAte(){
+
+    public void SelectTheDAte() {
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,150)");
-        WebElement date= driver.findElement(By.xpath("//input[@id='datePickerMonthYearInput']"));
+        WebElement date = driver.findElement(By.xpath("//input[@id='datePickerMonthYearInput']"));
         date.click();
         driver.findElement(By.xpath("//select[@class='react-datepicker__year-select']")).click();
         driver.findElement(By.xpath("//option[text()='2000']")).click();
@@ -97,6 +98,7 @@ public class WidgetsHomePage {
         driver.findElement(By.xpath("//div[text()='13']")).click();
 
     }
+
     public void SelectDateAndTime() {
         WebElement date = driver.findElement(By.xpath("//div[@id='dateAndTimePicker']"));
         date.click();
@@ -105,45 +107,53 @@ public class WidgetsHomePage {
 
 
     }
-    public void clickOnSliderButton(){
+
+    public void clickOnSliderButton() {
         WebElement element = driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-3']"));
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);", element);
         element.click();
     }
-    public void slideTheSlider(){
+
+    public void slideTheSlider() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,250)");
         driver.findElement(By.xpath("//input[@type='range']")).click();
 
     }
-    public void clickOnProgressBarButton(){
+
+    public void clickOnProgressBarButton() {
         WebElement element = driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-4']"));
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);", element);
         element.click();
 
     }
+
     public void clickOnStartButton() throws InterruptedException {
         driver.findElement(By.xpath("//button[@id='startStopButton']")).click();
         Thread.sleep(4000);
         driver.findElement(By.xpath("//button[@id='startStopButton']")).click();
     }
-    public void clickOnTabs(){
+
+    public void clickOnTabs() {
         WebElement element = driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-5']"));
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);", element);
         element.click();
     }
-    public void clickOnOrigin(){
+
+    public void clickOnOrigin() {
         driver.findElement(By.xpath("//a[@id='demo-tab-origin']")).click();
     }
+
     public void clickOnToolTips() {
         WebElement element = driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-6']"));
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);", element);
         element.click();
     }
+
     public void MouseOverTheElement() throws InterruptedException {
         Thread.sleep(4000);
         JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -157,12 +167,14 @@ public class WidgetsHomePage {
 
 
     }
+
     public void clickOnMenuButton() {
         WebElement element = driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-7']"));
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);", element);
         element.click();
     }
+
     public void clickOnMainItemButton() throws InterruptedException {
         Thread.sleep(4000);
         JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -177,12 +189,14 @@ public class WidgetsHomePage {
         subSubItem.click();
 
     }
-    public void selectMenuButton(){
+
+    public void selectMenuButton() {
         WebElement element = driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-8']"));
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true);", element);
         element.click();
     }
+
     public void clickOnSelectValue() throws InterruptedException {
         Thread.sleep(4000);
         JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -195,6 +209,7 @@ public class WidgetsHomePage {
         OptionValue.click();
 
     }
+
     public void selectOne() throws InterruptedException {
         Thread.sleep(4000);
         WebElement tooltipElement = driver.findElement(By.xpath("//div[text()='Select Title']"));
@@ -204,6 +219,7 @@ public class WidgetsHomePage {
         WebElement OptionValue = driver.findElement(By.xpath("//div[text()='Dr.']"));
         OptionValue.click();
     }
+
     public void selectOldStyleMenu() throws InterruptedException {
         Thread.sleep(2000);
         WebElement tooltipElement = driver.findElement(By.xpath("//select[@id='oldSelectMenu']"));
@@ -214,6 +230,7 @@ public class WidgetsHomePage {
         OptionValue.click();
 
     }
+
     @AfterTest
     public void Teardown() {
         if (driver != null) {

@@ -4,10 +4,10 @@
     <test name="QApitol QA">
 <!--        <parameter name="browser" value="firefox"></parameter>-->
         <classes>
-<!--            <class name="Testcases.ElementsTestcases"></class>-->
-<!--            <class name="Testcases.FormsTestcases"></class>-->
-<!--            <class name="Testcases.AlertsTestCases"></class>-->
-<!--            <class name="Testcases.WidgetsTestcases"></class>-->
+            <class name="Testcases.ElementsTestcases"></class>
+            <class name="Testcases.FormsTestcases"></class>
+            <class name="Testcases.AlertsTestCases"></class>
+            <class name="Testcases.WidgetsTestcases"></class>
             <class name="Testcases.InteractionsTestcases"></class>
         </classes>
     </test>

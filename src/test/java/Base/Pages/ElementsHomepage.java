@@ -58,25 +58,32 @@ public class ElementsHomepage {
     public void enterCurrentAddress() {
         driver.findElement(By.xpath("//textarea[@id='currentAddress']")).sendKeys("Bangalore");
     }
-    public void enterPermanantAddress(){
+
+    public void enterPermanantAddress() {
         driver.findElement(By.xpath("//textarea[@id='permanentAddress']")).sendKeys("Hyderabad");
     }
-    public void clickOnElementsCheckBox(){
+
+    public void clickOnElementsCheckBox() {
         driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-1']")).click();
     }
-    public void clickOnPlusButton(){
+
+    public void clickOnPlusButton() {
         driver.findElement(By.xpath("//button[@title='Expand all']//*[name()='svg']")).click();
     }
-    public void clickOnAllCheckBox(){
+
+    public void clickOnAllCheckBox() {
         driver.findElement(By.xpath("//span[@class='rct-checkbox']//*[name()='svg']")).click();
     }
-    public void cickOnradioButton(){
+
+    public void cickOnradioButton() {
         driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-2']")).click();
     }
-    public void SelectYesInRadioButton(){
+
+    public void SelectYesInRadioButton() {
         driver.findElement(By.xpath("//label[text()='Yes']")).click();
     }
-    public void clickOnWebTablesButtonAndAddTheMembers(){
+
+    public void clickOnWebTablesButtonAndAddTheMembers() {
         driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-3']")).click();
         driver.findElement(By.xpath("//button[@id='addNewRecordButton']")).click();
         driver.findElement(By.xpath("//input[@id='firstName']")).sendKeys("Karthik");
@@ -88,6 +95,7 @@ public class ElementsHomepage {
         driver.findElement(By.xpath("//span[@aria-hidden='true']")).click();
 
     }
+
     public void clickOnAllButtonsInElementsPage() throws InterruptedException {
         driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-4']")).click();
         JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -98,6 +106,7 @@ public class ElementsHomepage {
         driver.findElement(By.xpath("//button[text()='Click Me']")).click();
 
     }
+
     public void clickOnLinks() throws InterruptedException {
         driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-5']")).click();
         driver.findElement(By.xpath("//a[@id='simpleLink']")).click();
@@ -105,20 +114,23 @@ public class ElementsHomepage {
         driver.switchTo().window(driver.getWindowHandle());
         driver.navigate().back();
     }
-    public void clickOnBrokenLinks(){
+
+    public void clickOnBrokenLinks() {
         driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-6']")).click();
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,250)");
         driver.findElement(By.xpath("//a[text()='Click Here for Valid Link']")).click();
         driver.navigate().back();
     }
+
     public void clickOnUploadAndDownloadButton() throws InterruptedException {
         driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-7']")).click();
         driver.findElement(By.xpath("//a[@id='downloadButton']")).click();
         Thread.sleep(4000);
-        WebElement fileinput = driver.findElement(By.xpath( "//input[@id='uploadFile']"));
+        WebElement fileinput = driver.findElement(By.xpath("//input[@id='uploadFile']"));
         fileinput.sendKeys("C:\\Users\\karthik.nagendrappa\\OneDrive - QAPITOL QA\\Documents\\Screenshot 2024-04-22 174212.png");
     }
+
     @AfterTest
     public void Teardown() {
         // Check if driver is initialized before attempting to close

@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adacaf84-223e-4624-9c19-f72fd59615e7" name="Changes" comment="Adding new Project">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/AlertsHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/InteractionsHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/WidgetsHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/AlertsTestCases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/InteractionsTestcases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/WidgetsTestcases.java" afterDir="false" />
+    <list default="true" id="adacaf84-223e-4624-9c19-f72fd59615e7" name="Changes" comment="Added new codes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/Pages/AlertsHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/AlertsHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/Pages/ElementsHomepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/ElementsHomepage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Base/Pages/FormsHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/FormsHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/ElementsTestcases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testcases/ElementsTestcases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/FormsTestcases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testcases/FormsTestcases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/Pages/InteractionsHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/InteractionsHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/Pages/WidgetsHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/Pages/WidgetsHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/InteractionsTestcases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testcases/InteractionsTestcases.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/TestNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,12 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1731598610694</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added new codes">
+      <option name="closed" value="true" />
+      <created>1732019938851</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732019938851</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding new Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding new Project" />
+    <MESSAGE value="Added new codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new codes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

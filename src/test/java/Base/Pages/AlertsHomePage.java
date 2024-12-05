@@ -27,6 +27,7 @@ public class AlertsHomePage {
 
 
     }
+
     @Test
     public void clickOnAlertsPage() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -36,16 +37,19 @@ public class AlertsHomePage {
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h5[text()='Alerts, Frame & Windows']")));
         element.click();
     }
-    public void clickOnBrowserwindowsButton(){
+
+    public void clickOnBrowserwindowsButton() {
         driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-0']")).click();
 
     }
+
     public void clickOnNewTab() throws InterruptedException {
         driver.findElement(By.xpath("//button[@id='tabButton']")).click();
         Thread.sleep(5000);
         driver.switchTo().window(driver.getWindowHandle());
         driver.navigate().back();
     }
+
     public void clickOnNewWindow() throws InterruptedException {
         driver.findElement(By.xpath("//button[@id='tabButton']")).click();
         Thread.sleep(2000);
@@ -54,6 +58,7 @@ public class AlertsHomePage {
         driver.navigate().back();
 
     }
+
     public void clickOnNewWindowMessageTab() throws InterruptedException {
         Actions actions = new Actions(driver);
         actions.moveToElement(driver.findElement(By.xpath("//button[@id='messageWindowButton']"))).click().perform();
@@ -73,12 +78,13 @@ public class AlertsHomePage {
         js.executeScript("window.scrollBy(0,550)");
         WebElement alertButton = driver.findElement(By.xpath("//button[@id='alertButton']"));
         alertButton.click();
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.alertIsPresent());
         Alert alert = driver.switchTo().alert();
         alert.accept();
 
     }
+
     public void clickOnfiveSecondsAlertButton() {
 
         WebElement alertButton = driver.findElement(By.xpath("//button[@id='timerAlertButton']"));
@@ -88,20 +94,22 @@ public class AlertsHomePage {
         Alert alert = driver.switchTo().alert();
         alert.accept();
     }
+
     public void clickOnConfirmButton() throws InterruptedException {
         Actions actions = new Actions(driver);
-        actions.moveToElement( driver.findElement(By.xpath("//button[@id='confirmButton']"))).click().perform();
+        actions.moveToElement(driver.findElement(By.xpath("//button[@id='confirmButton']"))).click().perform();
 //        WebElement alertButton = driver.findElement(By.xpath("//button[@id='confirmButton']"));
 //        alertButton.click();
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.alertIsPresent());
         Alert alert = driver.switchTo().alert();
         alert.accept();
     }
+
     public void clickOnPromptButton() throws InterruptedException {
         WebElement alertButton = driver.findElement(By.xpath("//button[@id='promtButton']"));
         alertButton.click();
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         Alert promptAlert = driver.switchTo().alert();
         promptAlert.sendKeys("karthik");
         promptAlert.accept();
@@ -118,6 +126,7 @@ public class AlertsHomePage {
         WebElement sampleText = driver.findElement(By.xpath("//h1[@id='sampleHeading']"));
         System.out.println("Text inside the frame: " + sampleText.getText());
     }
+
     public void handleNestedFrames() throws InterruptedException {
         Actions actions = new Actions(driver);
         actions.moveToElement(driver.findElement(By.xpath("//div[@class='element-list collapse show']//li[@id='item-3']"))).click().perform();

@@ -62,31 +62,35 @@ public class FormsHomePage {
         driver.findElement(By.xpath("//input[@id='userNumber']")).sendKeys("9865679876");
 
     }
+
     public void enterDateOfBirth() throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,550)");
         Thread.sleep(3000);
-       WebElement date= driver.findElement(By.xpath("//input[@id='dateOfBirthInput']"));
-       date.click();
-       driver.findElement(By.xpath("//select[@class='react-datepicker__year-select']")).click();
-       driver.findElement(By.xpath("//option[text()='2000']")).click();
-       driver.findElement(By.xpath("//option[text()='June']")).click();
-       driver.findElement(By.xpath("//div[text()='13']")).click();
-       Thread.sleep(5000);
-
+        WebElement date = driver.findElement(By.xpath("//input[@id='dateOfBirthInput']"));
+        date.click();
+        driver.findElement(By.xpath("//select[@class='react-datepicker__year-select']")).click();
+        driver.findElement(By.xpath("//option[text()='2000']")).click();
+        driver.findElement(By.xpath("//option[text()='June']")).click();
+        driver.findElement(By.xpath("//div[text()='13']")).click();
+        Thread.sleep(5000);
 
 
     }
-    public void selectHobbies(){
+
+    public void selectHobbies() {
         driver.findElement(By.xpath("//label[text()='Music']")).click();
     }
-    public void selectPicture(){
-        WebElement fileinput = driver.findElement(By.xpath( "//input[@id='uploadPicture']"));
+
+    public void selectPicture() {
+        WebElement fileinput = driver.findElement(By.xpath("//input[@id='uploadPicture']"));
         fileinput.sendKeys("C:\\Users\\karthik.nagendrappa\\OneDrive - QAPITOL QA\\Documents\\Screenshot 2024-04-22 174212.png");
     }
-    public void currrentAddress(){
+
+    public void currrentAddress() {
         driver.findElement(By.xpath("//textarea[@id='currentAddress']")).sendKeys("highway side and Metroside");
     }
+
     public void selectState() throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,250)");
@@ -95,19 +99,21 @@ public class FormsHomePage {
         driver.findElement(By.xpath("//div[text()='Haryana']")).click();
         Thread.sleep(3000);
     }
-    public void selectCity(){
+
+    public void selectCity() {
         Actions actions = new Actions(driver);
         actions.moveToElement(driver.findElement(By.xpath("//div[contains(text(),'Select City')]"))).click().perform();
         driver.findElement(By.xpath("//div[text()='Panipat']")).click();
 
     }
-    public void clickOnSubmitButton(){
+
+    public void clickOnSubmitButton() {
         driver.findElement(By.xpath("//button[text()='Submit']")).click();
     }
-    public void closeTheSubmittingFOrm(){
-        driver.findElement(By.xpath("//button[text()='Close']")).sendKeys(Keys.CONTROL,Keys.SUBTRACT);
-    }
 
+    public void closeTheSubmittingFOrm() {
+        driver.findElement(By.xpath("//button[text()='Close']")).sendKeys(Keys.CONTROL, Keys.SUBTRACT);
+    }
 
 
     @AfterTest
