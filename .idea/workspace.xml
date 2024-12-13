@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f5a61a2-0ba2-488e-bfc8-8afc93a782da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaTrainingPrograms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/AreaOfRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/CheckAgeELigiblityForVote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/CheckPalindromeStringOrNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/FibnocciSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/FindAllArmstrongNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/FindTheThreeLargestNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/FlipACoinMultipleTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/MultiplicationTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/OopsConcepts/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/OopsConcepts/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/OopsConcepts/StudentDriverClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/OopsConcepts/StudentManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/OopsConcepts/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/PrintAllPrimeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/SkipEvenNumbersAndStartTheLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/StopTheLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/SumOfArrayUsingEachLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/SumOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/ThreadsTrainingProgram/Thread1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/ThreadsTrainingProgram/Thread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/ThreadsTrainingProgram/ThreadDemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/day2/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/day2/EmployeeManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/day2/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/day2/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/designPatterns/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/designPatterns/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/designPatterns/Product1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/designPatterns/Product2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/designPatterns/Product3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/designPatterns/ProductFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Qapitol/com/designPatterns/SingleTonDesign.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2p0r4Rznv1mrjDNG1kwfrn7Dy0M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AreaOfRectangle.executor": "Run",
+    "Application.Calculator.executor": "Run",
+    "Application.CheckAgeELigiblityForVote.executor": "Run",
+    "Application.CheckPalindromeStringOrNumber.executor": "Run",
+    "Application.Controller.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.FibnocciSeries.executor": "Run",
+    "Application.FindAllArmstrongNumbers.executor": "Run",
+    "Application.FlipACoinMultipleTimes.executor": "Run",
+    "Application.MultiplicationTable.executor": "Run",
+    "Application.PrintAllPrimeNumbers.executor": "Run",
+    "Application.SkipEvenNumbersAndStartTheLoop.executor": "Run",
+    "Application.StopTheLoop.executor": "Run",
+    "Application.StudentDriver.executor": "Run",
+    "Application.StudentManagement.executor": "Run",
+    "Application.StudentManager.executor": "Run",
+    "Application.SumOfArrayUsingEachLoop.executor": "Run",
+    "Application.SumOfDigits.executor": "Run",
+    "Application.ThreadDemoController.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/karthik.nagendrappa/Downloads/LibraryManagementSystem",
+    "onboarding.tips.debug.path": "C:/Users/karthik.nagendrappa/OneDrive - QAPITOL QA/Desktop/CashFloApiAutomationPreMAster/JavaTrainingPrograms/src/Main.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\karthik.nagendrappa\OneDrive - QAPITOL QA\Desktop\CashFloApiAutomationPreMAster\JavaTrainingPrograms\src\Qapitol\com" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\karthik.nagendrappa\OneDrive - QAPITOL QA\Desktop\CashFloApiAutomationPreMAster\JavaTrainingPrograms\src\Qapitol\com" />
+      <recent name="C:\Users\karthik.nagendrappa\OneDrive - QAPITOL QA\Desktop\CashFloApiAutomationPreMAster\JavaTrainingPrograms\src\SecondDayprograms\PracticeProgram" />
+      <recent name="C:\Users\karthik.nagendrappa\OneDrive - QAPITOL QA\Desktop\CashFloApiAutomationPreMAster\JavaTrainingPrograms\src\Qapitol\com\Day2" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f5a61a2-0ba2-488e-bfc8-8afc93a782da" name="Changes" comment="" />
+      <created>1731913644337</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731913644337</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Qapitol/com/day2/Manager.java</url>
+          <line>4</line>
+          <properties field="id" class="Qapitol.com.day2.Manager" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
