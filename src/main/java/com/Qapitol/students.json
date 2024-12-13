@@ -1,0 +1,37 @@
+[
+  {
+    "id": "67",
+    "name": "ghjk",
+    "age": 68,
+    "mbNo": "4567890-",
+    "addresses": [
+      "sdfghjkl"
+    ],
+    "books": []
+  },
+  {
+    "id": "34",
+    "name": "karthik",
+    "age": 34,
+    "mbNo": "09876543",
+    "addresses": [
+      "ghjklkjhgf"
+    ],
+    "borrowedBooks": [
+      "maths,science,social",
+      "Maths,science"
+    ],
+    "books": []
+  },
+  {
+    "id": "35",
+    "name": "KArthikgowda",
+    "age": 45,
+    "mbNo": "9876545678",
+    "addresses": [
+      "Hirehalli"
+    ],
+    "borrowedBooks": [],
+    "books": []
+  }
+]
