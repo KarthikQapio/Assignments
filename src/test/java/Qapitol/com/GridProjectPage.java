@@ -11,7 +11,6 @@ public class GridProjectPage {
 
     @Test
     public void Test1() {
-
         try {
             System.out.println("Test1 started...");
             DesiredCapabilities dc = new DesiredCapabilities();
