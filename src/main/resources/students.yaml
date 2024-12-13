@@ -1,0 +1,6 @@
+!!org.example.Yamlfile.StudentManagementyaml$StudentData
+students:
+- age: 45
+  grade: b
+  id: '3'
+  name: chandu

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "4",
+    "name": "karthik",
+    "age": 42,
+    "grade": "B+"
+  },
+  {
+    "id": "34",
+    "name": "karthik",
+    "age": 34,
+    "grade": "A_"
+  },
+  {
+    "id": "34",
+    "name": "Chandu",
+    "age": 32,
+    "grade": "B+"
+  },
+  {
+    "id": "34",
+    "name": "mounika",
+    "age": 34,
+    "grade": "a"
+  }
+]
